@@ -1,0 +1,22 @@
+.content-box{
+    max-width: 800px;
+    position: relative;
+    float: left;
+    color:rgb(143, 141, 139);
+}
+.header{
+    color:black;
+    text-shadow: 10px;
+}
+
+.marquee-wrapper{
+    width:500px;
+    will-change: transform;
+    animation: marqueeAnimation 10s linear infinite;
+}
+
+@keyframes marqueeAnimation {
+    from { transform: translateX(50%); }
+    to { transform: translateX(-100%); }
+    
+}
